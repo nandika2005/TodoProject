@@ -92,7 +92,7 @@ app.delete('/todos/:id', async (req, res) => {
 });
 
 // Start the server
-const port = 4000;
+const port = 4001;
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
 });
