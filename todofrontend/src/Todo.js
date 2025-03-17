@@ -8,7 +8,7 @@ export default function Todo() {
   const [editId, setEditId] = useState(-1);
   const [editTitle, setEditTitle] = useState("");
   const [editDescription, setEditDescription] = useState("");
-  const apiUrl = "http://localhost:4000";
+  const apiUrl = "https://todoproject-427l.onrender.com";
 
   const handleSubmit = () => {
     setError("");
